@@ -14,8 +14,8 @@ const Header = () => {
     setMenuOpend(!menuOpend)
   }
   return (
-    <header className="fixed top-0 left-0 m-auto max_padd_container w-full bg-white  ring-1 ring-slate-900/5 z-10">
-      <div className="border border-2 border-green-500 px-4 flexBetween py-3 max-xl:px-2">
+    <header className="fixed top-0 left-0 m-auto max_padd_container w-full bg-white  ring-1 ring-slate-900/30 z-10">
+      <div className=" px-4 flexBetween py-3 max-xl:px-2">
         {/*logo*/}
         <Link><img src={logo} alt="" height={66} width={88} /></Link>
         {/* Navbar Desktop*/}
